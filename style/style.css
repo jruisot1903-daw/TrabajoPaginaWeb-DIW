@@ -13,8 +13,8 @@
 
 body {
   font-family: "Arial", sans-serif;
-  background: var(--negro);
-  color: var(--blanco);
+  background: #0D0D0D;
+  color: #FFFFFF;
 }
 
 /* Header */
@@ -23,7 +23,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 15px 40px;
-  background: var(--gris);
+  background: #444444;
 }
 header img {
   height: 70px;
@@ -39,8 +39,8 @@ header img {
   outline: none;
 }
 .login button {
-  background: var(--rojo);
-  color: var(--blanco);
+  background: #E63946;
+  color: #FFFFFF;
   border: none;
   padding: 8px 15px;
   border-radius: 4px;
@@ -54,8 +54,8 @@ header img {
 
 /* Navegación */
 nav {
-  background: var(--negro);
-  border-top: 2px solid var(--rojo);
+  background: #0D0D0D;
+  border-top: 2px solid #E63946;
 }
 nav ul {
   list-style: none;
@@ -67,18 +67,18 @@ nav > ul > li {
   padding: 15px 25px;
   cursor: pointer;
   font-weight: bold;
-  color: var(--blanco);
+  color: #FFFFFF;
   transition: 0.3s;
 }
 nav > ul > li:hover {
-  background: var(--rojo);
+  background: #E63946;
 }
 nav ul ul {
   display: none;
   position: absolute;
   top: 50px;
   left: 0;
-  background: var(--gris);
+  background: #444444;
   min-width: 180px;
   flex-direction: column;
   z-index: 99;
@@ -93,11 +93,11 @@ nav li:hover ul {
 }
 nav ul ul li {
   padding: 12px 20px;
-  color: var(--blanco);
+  color: #FFFFFF;
 }
 nav ul ul li:hover {
   background: #222;
-  color: var(--rojo);
+  color: #E63946;
 }
 
 #contacto:hover{
@@ -107,17 +107,17 @@ nav ul ul li:hover {
 /* Hero */
 .hero {
   height: 90vh;
-  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("/TrabajoPaginaWeb/img/Logo.png") center/cover no-repeat;
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("/TrabajoPaginaWeb-DIW/img/Logo.png") center/cover no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: var(--blanco);
+  color: #FFFFFF;
 }
 .hero h1 {
   font-size: 4rem;
-  color: var(--rojo);
+  color: #E63946;
   margin-bottom: 20px;
   text-transform: uppercase;
 }
@@ -128,8 +128,8 @@ nav ul ul li:hover {
   text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
 }
 .hero button {
-  background: var(--rojo);
-  color: var(--blanco);
+  background: #E63946;
+  color: #FFFFFF;
   border: none;
   padding: 15px 30px;
   font-size: 1.2rem;
@@ -144,8 +144,8 @@ nav ul ul li:hover {
 
 /* Footer */
 footer {
-  background: var(--gris);
-  color: var(--blanco);
+  background: #444444;
+  color: #FFFFFF;
   padding: 40px 20px 20px 20px;
 }
 .footer-container {
@@ -161,7 +161,7 @@ footer {
 }
 .footer-info h3, .footer-horario h4, .footer-redes h4 {
   margin-bottom: 15px;
-  color: var(--rojo);
+  color: #E63946;
 }
 .footer-redes a {
   display: inline-block;
@@ -179,7 +179,7 @@ footer {
   text-align: center;
   margin-top: 30px;
   font-size: 0.9rem;
-  border-top: 1px solid var(--rojo);
+  border-top: 1px solid #E63946;
   padding-top: 15px;
 }
 
@@ -192,11 +192,11 @@ a {
 
 /* Links en navegación */
 nav ul li a {
-  color: var(--blanco);
+  color: #FFFFFF;
   text-decoration: none;
 }
 nav ul li a:hover {
-  color: var(--rojo);
+  color: #E63946;
 }
 
 /* Links en footer */
@@ -205,10 +205,9 @@ footer a {
   text-decoration: none;
 }
 footer a:hover {
-  color: var(--rojo);
+  color: #E63946;
 }
 
-/* Media Queries */
 @media (max-width: 768px) {
   nav ul {
     flex-direction: column;

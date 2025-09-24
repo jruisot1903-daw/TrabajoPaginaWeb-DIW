@@ -1,10 +1,25 @@
  .quienes-somos {
       padding: 80px 20px;
     }
-    .quienes-somos .container { max-width: 1200px; margin: 0 auto; }
-    .qs-header { text-align: center; margin-bottom: 50px; }
-    .qs-header h2 { font-size: 3rem; color: var(--rojo); margin-bottom: 15px; }
-    .qs-header p { font-size: 1.2rem; line-height: 1.8; max-width: 800px; margin: 0 auto; }
+    .quienes-somos .container { 
+      max-width: 1200px;
+       margin: 0 auto; 
+    }
+    .qs-header { 
+      text-align: center; 
+      margin-bottom: 50px; 
+    }
+    .qs-header h2 { 
+      font-size: 3rem; 
+      color: #E63946; 
+      margin-bottom: 15px; 
+    }
+    .qs-header p { 
+      font-size: 1.2rem; 
+      line-height: 1.8; 
+      max-width: 800px; 
+      margin: 0 auto; 
+  }
 
     .qs-cards {
       display: flex;
@@ -14,22 +29,46 @@
       margin-bottom: 50px;
     }
     .qs-card {
-      background: var(--gris);
+      background: #444444;
       flex: 1 1 250px;
       padding: 25px;
       border-radius: 10px;
       text-align: center;
       transition: transform 0.3s, box-shadow 0.3s;
     }
-    .qs-card img { width: 60px; margin-bottom: 15px; }
-    .qs-card h3 { color: var(--rojo); margin-bottom: 10px; }
-    .qs-card p { font-size: 1rem; line-height: 1.6; }
-    .qs-card:hover { transform: translateY(-10px); box-shadow: 0 8px 20px rgba(0,0,0,0.6); }
+    .qs-card img {
+       width: 60px; 
+       margin-bottom: 15px; 
+      }
+    .qs-card h3 { 
+      color: #E63946; 
+      margin-bottom: 10px; 
+    }
+    .qs-card p { 
+      font-size: 1rem; 
+      line-height: 1.6; 
+    }
+    .qs-card:hover { 
+      transform: translateY(-10px); 
+      box-shadow: 0 8px 20px rgba(0,0,0,0.6); 
+    }
 
-    .qs-imagen { text-align: center; }
-    .qs-imagen img { width: 100%; max-width: 700px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.5); }
+    .qs-imagen { 
+      text-align: center; 
+    }
+    .qs-imagen img { 
+      width: 100%; 
+      max-width: 700px; 
+      border-radius: 10px; 
+      box-shadow: 0 4px 15px rgba(0,0,0,0.5); 
+    }
 
     @media (max-width: 768px) {
-      .qs-cards { flex-direction: column; align-items: center; }
-      .qs-card { max-width: 300px; }
+      .qs-cards { 
+        flex-direction: column; 
+        align-items: center; 
+      }
+      .qs-card { 
+        max-width: 300px; 
+      }
     }
